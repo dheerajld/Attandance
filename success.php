@@ -32,7 +32,7 @@
   <h1 class="text-center">Info</h1>
   </div>
   <div class="card-body">
-    <h5 class="card-title"><?php echo $_POST['firstname']; ?></h5>
+    <h5 class="card-titles"><?php echo $_POST['firstname']; ?></h5>
     <h5 class="card-title"><?php echo $_POST['lastname']; ?></h5>
     <h5 class="card-title"><?php echo $_POST['dob']; ?></h5>
     <h5 class="card-title"><?php echo $_POST['specialty']; ?></h5>
