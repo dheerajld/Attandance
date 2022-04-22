@@ -24,7 +24,7 @@ else{
 
 ?>
 
-
+<img src="<?php echo empty($result['avatar_path']) ? "uploads/blank.png" : $result['avatar_path'] ; ?>" class="rounded-circle" style="width: 20%; height: 20%" />
 <div class="card" style="width: 18rem;">
 <div class="card-body">
     <h5 class="card-title">
@@ -45,6 +45,7 @@ else{
 
 </div>
 </div>
+
 <br/>
     
 <?php } ?>

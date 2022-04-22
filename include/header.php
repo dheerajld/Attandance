@@ -3,13 +3,17 @@
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Attandance</title>
+        <title>Attendance</title>
         <link rel="shortcut icon" type="image/png" href="img/fav_mini.png"/>
         <link rel="stylesheet" href="css/foundation.css" />
         <link rel="stylesheet" href="css/style.css" />
         <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
         <link rel="stylesheet" href="//code.jquery.com/ui/1.13.1/themes/base/jquery-ui.css">
   <link rel="stylesheet" href="/resources/demos/style.css">
+ 
+    <script src="assests/jquery-1.11.1.min.js"></script>
+    <script src="assests/bootstrap.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
   <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
   <script>
@@ -17,7 +21,8 @@
     $( "#dob" ).datepicker({
         changeMonth:true,
         changeYear:true,
-        yearRange: "-100:+0"
+        yearRange: "-100:+0",
+        dateFormat: "yy-mm-dd"
     });
   } );
   </script>
@@ -37,7 +42,7 @@
 						<a href="index.php" title="home">
 							<div class="table">
 								<div class="table-cell">
-                                   <h1> <span class="square">&nbsp;</span>Attandance</h1>
+                                   <h1> <span class="square">&nbsp;</span>Attendance</h1>
 								</div>
 							</div>
 						</a>
@@ -48,8 +53,7 @@
 							<div class="table-cell">
 								<ul class="menu-items">
 									<li><a href="viewattandance.php">View Attandance</a></li>
-									<li><a href="index.html#servicos">Services</a></li>
-									<li><a href="index.html#contact-us">Contact</a></li>
+           
 								</ul>
 							</div>
 						</div>

@@ -1,6 +1,6 @@
 <?php
 
-//localhost
+// //localhost
 // $host = 'localhost:3308';
 // $db = 'attandance_db';
 // $user = 'root';
@@ -24,6 +24,10 @@ try{
 }
 
 require_once 'crud.php';
+
 $crud = new crud($pdo);
+
+
+
 
 ?>
